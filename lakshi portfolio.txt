@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lakshi Oberoi | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #0077b5, #00c6ff);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 40px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: white;
+      color: #0077b5;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      margin: 15px 0;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    h2 {
+      color: #38bdf8;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #020617;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Lakshi Oberoi</h1>
+  <p>Business Development Intern | International Business Enthusiast</p>
+  <a href="#" class="btn">Connect on LinkedIn</a>
+</header>
+
+<section>
+  <div class="card">
+    <h2>About Me</h2>
+    <p>
+      I am a BBA student passionate about Business Development, International Markets, 
+      and Growth Strategy. I enjoy working on real-world projects and building strong business ideas.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Skills</h2>
+    <ul>
+      <li>Business Development</li>
+      <li>Lead Generation</li>
+      <li>Market Research</li>
+      <li>Communication & Negotiation</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Projects</h2>
+    <p><strong>Market Entry Strategy:</strong> Nykaa Expansion to Dubai</p>
+  </div>
+
+  <div class="card">
+    <h2>Contact</h2>
+    <p>Email: your@email.com</p>
+    <p>LinkedIn: Add your profile link</p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Lakshi Oberoi | Personal Portfolio
+</footer>
+
+</body>
+</html>
